@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore, Firestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyAzL4J22QsWLla-4Fx1efcx10HGh6OT4dw",
+  authDomain: "foodtruck-5cadc.firebaseapp.com",
+  projectId: "foodtruck-5cadc",
+  storageBucket: "foodtruck-5cadc.firebasestorage.app",
+  messagingSenderId: "473481182491",
+  appId: "1:473481182491:web:edc76107142c0b2dc027be",
+  measurementId: "G-N2W7833JF4"
 };
 
 let db: Firestore;
